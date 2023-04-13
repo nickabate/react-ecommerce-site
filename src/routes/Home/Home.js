@@ -1,7 +1,8 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./routes/Home/Home";
+import { Outlet } from "react-router-dom";
+import Directory from "../../components/Directory/Directory";
+import catalog from "../../data/catalog.json";
 
-const App = () => {
+const Home = () => {
   // const categories = [
   //   {
   //     id: 1,
@@ -30,17 +31,12 @@ const App = () => {
   //   },
   // ];
 
-  const Shop = () => {
-    return <div>I am the shop</div>;
-  };
-
   return (
-    <Routes>
-      <Route path="home" element={<Home />}>
-        <Route path="shop" element={<Shop />} />
-      </Route>
-    </Routes>
+    <div>
+      <Directory categories={catalog} />
+      <Outlet />
+    </div>
   );
 };
 
-export default App;
+export default Home;
