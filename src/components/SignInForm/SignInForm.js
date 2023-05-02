@@ -4,7 +4,7 @@ import Button, { BUTTON_TYPE_CLASSES } from "../Button/Button";
 
 import {
   signInWithGooglePopup,
-  createUserDocumentFromAuth,
+  // createUserDocumentFromAuth,
   signInAuthUserWithEmailAndPassword,
 } from "../../utils/Firebase";
 
@@ -32,6 +32,7 @@ const SignInForm = () => {
     e.preventDefault();
 
     try {
+      //eslint-disable-next-line
       const { user } = await signInAuthUserWithEmailAndPassword(
         email,
         password
