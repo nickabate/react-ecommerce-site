@@ -15,7 +15,7 @@ With this project, I learned how to use third party libraries to build efficient
 Some of the tech used in this app includes Firebase to store the product categories, products, and user accounts. Redux has been used to manage centralized application state for things like a user's logged in status and the user's shopping cart. Lastly, the Stripe API has been integrated to simulate payments for a user's purchases.
 
 - [React](https://reactjs.org/) - JS library for web user interfaces
-- [Redux](https://expressjs.com/) - JS library for predictable and maintainable global state management
+- [Redux](https://redux.js.org/) - JS library for predictable and maintainable global state management
 - [Firebase](https://firebase.google.com/) - Backend cloud computing services
 - [Stripe](https://docs.stripe.com/) - Payment gateway service 
 
