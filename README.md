@@ -4,7 +4,7 @@
 
 CRWN Clothing is an e-commerce store project.
 
-![Demo screenshot](./demo/screenshot.png)
+![Demo screenshot](./crwn-clothing.png)
 
 This project challenged me to take my knowledge in React to a new level. The project was built as part of completing my online certification as a React developer with the Zero to Mastery Academy.
 
