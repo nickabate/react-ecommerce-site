@@ -6,11 +6,11 @@ CRWN Clothing is an e-commerce store project.
 
 ![Demo screenshot](./crwn-clothing.png)
 
-This project challenged me to take my knowledge in React to a new level. The project was built as part of completing my online certification as a React developer with the Zero to Mastery Academy.
+This project challenged me to take my knowledge in React to a new level. The project was built as part of pursuing my online certification as a React developer with the [Zero to Mastery Academy](https://zerotomastery.io/).
 
 With this project, I learned how to use third party libraries to build efficient and modern experiences for users.
 
-## Built with
+## Built With
 
 Some of the tech used in this app includes Firebase to store the product categories, products, and user accounts. Redux has been used to manage centralized application state for things like a user's logged in status and the user's shopping cart. Lastly, the Stripe API has been integrated to simulate payments for a user's purchases.
 
