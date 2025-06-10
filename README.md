@@ -19,7 +19,7 @@ Some of the tech used in this app includes Firebase to store the product categor
 - [Firebase](https://firebase.google.com/) - Backend cloud computing services
 - [Stripe](https://docs.stripe.com/) - Payment gateway service 
 
-## Author
+## Contributing Author
 
 Thanks for checking out my work! Feel free to reach out to me with any questions or to connect.
 
